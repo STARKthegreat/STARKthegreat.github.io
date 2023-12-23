@@ -1,63 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html>
 
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Kiprop Kimutai</h1>
+            <p id="position">Software Engineer</p>
         </header>
-
-        <main>
-            <section id="about">
-                <h1>Hi, I'm Jane Doe</h1>
-                <p>Welcome to my portfolio website! I'm a freelance web developer with over 5 years of experience in
-                    building modern and responsive websites. Take a look around to see some of my best work and don't
-                    hesitate to contact me if you have any questions.</p>
-            </section>
-
-            <section id="portfolio">
-                <h2>Portfolio</h2>
-                <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>This is a brief description of Project 1.</p>
-                </div>
-                <div class="project">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>This is a brief description of Project 2.</p>
-                </div>
-                <div class="project">
-                    <img src="project3.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>This is a brief description of Project 3.</p>
-                </div>
-            </section>
-
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>If you have any questions or would like to work with me, please don't hesitate to get in touch:</p>
-                <ul>
-                    <li>Email: jane.doe@example.com</li>
-                    <li>Phone: (123) 456-7890</li>
-                </ul>
-            </section>
-        </main>
-
+        <section>
+            <h2>Summary</h2>
+            <p class="summary"><img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png"
+                    width="80px" alt="">
+                Deadline-oriented software engineer with lots of experience. Solid track record of architecting
+                solutions that exceed client expectations.</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <ul id="experience">
+                <li>
+                    <b>Senior Software Engineer - Google</b> | 2018 - Present
+                </li>
+                <li>
+                    <b> Software Engineer - Facebook</b> | 2016 - 2018
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <table id="skills">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form id="contact-form">
+                <label for="name">Name: </label><input placeholder="Name" id="name" type="text" /><br>
+                <label for="email">Email: </label><input placeholder="Email" id="email" type="email" /><br>
+                <textarea placeholder="Message"></textarea><br>
+                <input type="submit" value="SEND">
+            </form>
+        </section>
         <footer>
-            <p>&copy; 2022 Jane Doe. All rights reserved.</p>
+            <h2>Contacts</h2>
+            <ul id="contacts">
+                <li><a href="link1" target="_blank">Sololearn</a></li>
+                <li><a href="link2" target="_blank">LinkedIn</a></li>
+            </ul>
+            <p id="copyright">Copyright &copy; John Smith</p>
         </footer>
     </body>
 
