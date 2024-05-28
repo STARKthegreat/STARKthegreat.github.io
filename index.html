@@ -64,35 +64,12 @@
         </section>
         <section>
             <h2>Contact Form</h2>
-            <form id="contact-form">
+            <form id="contact-form" action="https://formspree.io/f/xbjneege" id="form" method="post" class="p-3" required="">
                 <label for="name">Name: </label><input placeholder="Name" id="name" type="text" /><br>
                 <label for="email">Email: </label><input placeholder="Email" id="email" type="email" /><br>
                 <textarea placeholder="Message"></textarea><br>
                 <input type="submit" value="SEND">
             </form>
-
-            <form action="https://formspree.io/f/xbjneege" id="form" method="post" class="p-3" required="">
-                                    <div class="form-group form-inline m-3">
-                                        <label for="name" class="p-3">
-                                            <input type="text" class="form-control" name="name" id="name" required="" placeholder="Name">
-                                            
-                                        </label>
-                                        <label for="email" class="p-3">
-                                          <input class="form-control" type="email" name="email" id="email" required="" placeholder="Enter Email">
-                                        </label>
-                                        <label for="email" class="p-3">
-                                            <input class="form-control" type="text" name="subject" id="subject" required="" placeholder="subject">
-                                          </label>
-                                    </div>
-                                    <div class="form-group m-3">
-                                        <label for="message">
-                                            <textarea class="form-control" name="Message" required="" id="message" rows="8" placeholder="Enter Message"></textarea>
-                                        </label>
-                                    </div>
-                                  
-                              <button type="submit" id="submit" class="btn btn-primary">submit</button>
-                              <p id="my-form-status"></p>
-                            </form>
         </section>
         <footer>
             <h2>Contacts</h2>
